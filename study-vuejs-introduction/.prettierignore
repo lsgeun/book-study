@@ -1,0 +1,16 @@
+# Node dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Lock files
+package-lock.json
+yarn.lock
+
+# Static assets
+public/**/*.ico
+
+# Optional: 설정 파일 제외
+jsconfig.json
+vite.config.js

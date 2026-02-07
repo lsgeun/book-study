@@ -1,0 +1,21 @@
+<style>
+  [v-cloak] {
+    display: none;
+  }
+</style>
+<div id="app">
+  <h1 v-cloak>{{ message }}</h1>
+</div>
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+<script>
+  const { createApp } = Vue;
+  window.setTimeout(() => {
+    createApp({
+      data() {
+        return {
+          message: "Hello Vue!",
+        };
+      },
+    }).mount('#app');
+  }, 2000);
+</script>

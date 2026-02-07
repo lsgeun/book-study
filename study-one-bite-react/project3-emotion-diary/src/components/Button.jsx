@@ -1,0 +1,15 @@
+import '@/components/Button.css';
+
+const Button = ({ text, type = 'default', onClick }) => {
+  const btnType = ['positive', 'negative'].includes(type) ? type : 'default';
+  return (
+    <button
+      className={['button', `button-${btnType}`].join(' ')}
+      onClick={onClick}
+    >
+      {text}
+    </button>
+  );
+};
+
+export default Button;

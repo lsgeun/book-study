@@ -1,0 +1,15 @@
+# Python 캐시
+__pycache__/
+*.pyc
+
+# SQLite DB
+*.sqlite3
+
+# Docker 환경 변수
+*.env
+
+# iTerm2 세션 파일
+iTerm2 Session *.txt
+
+# mac
+.DS_Store

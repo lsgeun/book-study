@@ -1,0 +1,18 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+    <input type="text" id="text1" onblur="doBlur(this);" />
+    <script>
+      function doBlur(obj) {
+        if (obj.value == "") {
+          alert("필수값입니다. 반드시 입력하세요.");
+        }
+        console.log(obj.value);
+      }
+    </script>
+</body>
+</html>

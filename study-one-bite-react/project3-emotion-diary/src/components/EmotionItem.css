@@ -1,0 +1,52 @@
+.emotion-item {
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.emotion-item img {
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.emotion-item span {
+  font-size: 18px;
+}
+
+.emotion-item span {
+  font-size: 18px;
+}
+
+.emotion-item-off {
+  background-color: #ececec;
+}
+
+.emotion-item-on-1 {
+  background-color: #64c964;
+  color: white;
+}
+
+.emotion-item-on-2 {
+  background-color: #9dd772;
+  color: white;
+}
+
+.emotion-item-on-3 {
+  background-color: #fdce17;
+  color: white;
+}
+
+.emotion-item-on-4 {
+  background-color: #fd8448;
+  color: white;
+}
+
+.emotion-item-on-5 {
+  background-color: #fd565f;
+  color: white;
+}
+d
